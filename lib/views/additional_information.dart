@@ -55,14 +55,14 @@ Widget additionalInformation(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Wind",
+                  "Humidity",
                   style: titleFont,
                 ),
                 SizedBox(
                   height: 18.0,
                 ),
                 Text(
-                  "Pressure",
+                  "Feels Like",
                   style: titleFont,
                 ),
               ],
@@ -72,14 +72,14 @@ Widget additionalInformation(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "$wind",
+                  "$humidity",
                   style: infoFont,
                 ),
                 SizedBox(
                   height: 18.0,
                 ),
                 Text(
-                  "$pressure",
+                  "$feels_like",
                   style: infoFont,
                 )
               ],
